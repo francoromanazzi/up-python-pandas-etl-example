@@ -1,0 +1,1 @@
+docker run --name postgres-up --env=POSTGRES_PASSWORD=password --volume=postgres-up-volume:/var/lib/postgresql/data -p 5432:5432 -d postgres
